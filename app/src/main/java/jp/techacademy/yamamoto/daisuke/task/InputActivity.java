@@ -91,7 +91,6 @@ public class InputActivity extends AppCompatActivity {
         findViewById(R.id.done_button).setOnClickListener(mOnDoneClickListener);
         mTitleEdit = (EditText)findViewById(R.id.title_edit_text);
         mContentEdit = (EditText)findViewById(R.id.content_edit_text);
-        mCategoryEdit = (EditText)findViewById(R.id.category_edit_text);
 
         // EXTRA_TASK から Task の id を取得して、 id から Task のインスタンスを取得する
         Intent intent = getIntent();
